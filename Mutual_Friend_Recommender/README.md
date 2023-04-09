@@ -2,7 +2,7 @@
 
 #### This project has been done using PySpark code that runs on a Databricks cluster.
 
-We will use Spark based MapReduce algorithm to generate friend recommendation for users. The recommendations will be based on number of mutual friends. The dataset for this task is available here: http://www.cs.cmu.edu/~ark/personas/data/MovieSummaries.tar.gz
+We will use Spark based MapReduce algorithm to generate friend recommendation for users. The recommendations will be based on number of mutual friends. 
 
 #### We use the a BFS-based approach, where every user at a distance of 2 from a user is a potential suggestion, and then these are ranked based on how many level 1 connections are responsible for the existence of a mutual relationship/acquitance.
 
